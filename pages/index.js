@@ -1,6 +1,14 @@
+import * as C from './Home.styles'
+import { NavBar } from "./components/NavBar.js"
+
 const Home = () => {
   return (
-    <NavBar/>
+    <>
+     
+      <C.Container>
+      <NavBar />
+      </C.Container>
+    </>
   )
 }
 
