@@ -3,8 +3,8 @@ export const filmes = [
         titulo:'Harry Potter',
         genero:'Fantasia',
         stars:5,
-        descriçao:'filme do bruxao',
-        img:'https://static.wikia.nocookie.net/harrypotter/images/9/9c/Capa_Harry_Potter_e_a_Pedra_Filosofal_%28filme%29.jpg/revision/latest?cb=20130101153136&path-prefix=pt-br',
+        descriçao:'Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger.',
+        img:'https://upload.wikimedia.org/wikipedia/pt/3/33/Chamber_of_Secrets.jpg',
         assistir:'https://google.com',
     },
     {
