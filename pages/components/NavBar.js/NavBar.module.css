@@ -1,0 +1,24 @@
+.container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: red;
+}
+
+.menuIten {
+    display: flex;
+    justify-content: center;
+}
+
+.menuIten ul {
+    display: flex;
+    list-style: none;
+    width: 700px;
+    justify-content: space-around;
+    color: red;
+}
+

@@ -1,14 +1,15 @@
-import * as C from './Home.styles'
 import { NavBar } from "./components/NavBar.js"
+import { Destaques } from './components/Destaques'
+import styles from '../styles/Home.module.css'
 
 const Home = () => {
   return (
-    <>
-     
-      <C.Container>
+
+    <div className={styles.container}>
       <NavBar />
-      </C.Container>
-    </>
+      <Destaques />
+    </div>
+
   )
 }
 

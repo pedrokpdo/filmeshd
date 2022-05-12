@@ -1,19 +1,19 @@
-import * as C from './styles'
+import styles from './NavBar.module.css'                                                                                                                                                                                                                                                                                                                                                            
 
 export const NavBar = () => {
     return (
-        <C.Container>
-            <C.Logo>
+        <div className={styles.container}>
+            <div className={styles.logo}>
                 <h1>MegaFilmesHd</h1>
-            </C.Logo>
-            <C.MenuIten>
+            </div>
+            <div className={styles.menuIten}>
                 <ul>
                     <li>Home</li>
                     <li>Lista de Filmes</li>
                     <li>Peça Filmes</li>
                     <li>Contato</li>
                 </ul>
-            </C.MenuIten>
-        </C.Container>
+            </div>
+        </div>
     )
 }
